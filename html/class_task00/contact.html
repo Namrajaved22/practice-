@@ -3,18 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+  
+    <title>contact us</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <a href="./home.html"> home page</a><br>
-    <a href=" ./skill.html"> skill page</a>
-    <a href=" ./ project.html"> project page</a>
-    <h2>contact</h2>
-    <img src="./email.png" alt="email here" width="200" title="email">
-    <p>email: example"gmail.com</p>
-    <img src="./phone call.png" alt="phone nohere" width="200" title="phone no">
-    <p>phone no. 03247685473</p> 
-    <p>linkedin: namra javed</p>  
+    <header>
+        <nav>
+        <a href="./index.html" style="padding: 2%; "><img src="./images/home.webp" alt="home" width="30"></a>
+        <a href="./skill.html" style="padding: 2%;"><img src="./images/skills.webp" alt="skills" width="30"></a>
+        <a href="./project.html" style="padding: 2%;"><img src="./images/projects.png" alt="project" width="30"></a>
+        <a href="./feeback.html" style="padding: 2%; "><img src="./images/feedback.png" alt="home" width="30"></a>
+        <header>  
+    </nav>
+</header>
+    <h2>contact us</h2>
+    <p>
+        Feel free to reach out to me via:
+        <br>
+        <img src="./images/email.png" alt="email here" width="110" title="email">
+     Email: <a href="mailto:namrajaved88888@example.com">namrajaved88888@example.com</a>
+        <br>
+        <img src="./images/phone call.png" alt="phone nohere" width="110" title="phone no">
+        Phone: <a href="tel:+923400069397">+923400069397</a>
+    </p>
+    <br>
+    <img src="./images/gitgub.png" width="110" alt="github link">
+    GitHub: <a href="https://github.com/Namrajaved22">github.com/yourusername</a> <br><br>
     
+<img src="./images/linkedin.png"  width ="120" alt="linkedin">
+   linkedin: <a href="https://www.linkedin.com/in/namra-javed-1702b62b0/"> my linkedin account</a> <br>
+
+<h1>Contact Us</h1>
+
+<form action="submit_contact_form.php" method="post">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
